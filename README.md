@@ -14,3 +14,4 @@ This project was made with no source code. I used old assignments to frame the w
 ### Links
 Deployed Webpage: https://popiuy.github.io/portfolio-2/
 Github url: https://github.com/Popiuy/portfolio-2
+![my screenshot](../portfolio-2/assets/images/Portfolio%20picture.png)
