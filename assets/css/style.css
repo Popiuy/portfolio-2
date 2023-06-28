@@ -55,9 +55,10 @@ footer {
 
 /* 
 What does the justify-content property do?
-It is used to align the flex items; in our case, the product cards 
-*/
-.products {
+It is used to align the flex items; in our case, the project cards 
+*/ 
+
+.projects {
   flex: 4;
   background-color: #fff;
   padding: 20px;
@@ -72,12 +73,34 @@ It is a shorthand property for the flex-grow, flex-shrink, and flex-basis proper
 What is it doing here?
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
+.first-card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 1000px;
+  margin: 10px;
+}
+
+.first-card header {
+  padding: 20px;
+}
+
+.first-card p {
+  text-align: center;
+}
+
+.first-card img {
+  width: 100%;
+}
+
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
+  margin: 10px;
 }
 
 .card header {
@@ -92,6 +115,10 @@ We are making the product card not growable, not shrinkable, and with an initial
   width: 100%;
 }
 
+.myimg {
+  margin-right: 30px;
+  width: 50px;
+}
 /* 
 What does the flex-direction property define?
 It defines in which direction the container wants to stack the flex items
